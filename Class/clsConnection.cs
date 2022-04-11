@@ -15,7 +15,7 @@ namespace AQUA_DATA.Class
         //Construtor
         public clsConnection()
         {
-            sqlCon.ConnectionString = @"Data Source=DESKTOP-943I550\SQLEXPRESS;Initial Catalog=AQUA_DATA;User ID=sa;Password=21081999";
+            sqlCon.ConnectionString = @"Data Source=DESKTOP-GCDORMP\SQLEXPRESS;Initial Catalog=AQUA_DATA;User ID=sa;Password=21081999";
         }
 
         //Método Conectar
