@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace AQUA_DATA.Class
         //Construtor
         public clsConnection()
         {
-            sqlCon.ConnectionString = @"Data Source=DESKTOP-GCDORMP\SQLEXPRESS;Initial Catalog=AQUA_DATA;User ID=sa;Password=21081999";
+            sqlCon.ConnectionString = ConfigurationManager.ConnectionStrings["AquaDataDB"].ConnectionString;
         }
 
         //Método Conectar
