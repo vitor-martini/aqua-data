@@ -1,8 +1,8 @@
 # Aqua Data
-Aqua Data foi um projeto pessoal desenvolvido em C# com Windows Form e banco SQL com o objetivo de acompanhar diariamente os parâmetros recolhidos de aquários.
+Aqua Data was a personal project developed in C# with Windows Form and SQL database with the objective of monitoring the parameters collected from aquariums on a daily basis.
 
-## Como rodar?
-1. Suba o arquivo aqua-data.BAK no SQL Server.
-2. Em "\aqua-data\App.config" informe a ConnectionString do seu banco de dados.
-3. Na pasta do projeto, rode o comando "dotnet run". O executável será gerado em "\aqua-data\bin\Debug\net6.0-windows\AQUA_DATA.exe".
-4. Rode o executável gerado no passo anterior.
+## How to run it?
+1. Restore aqua-data.BAK on the SQL Server.
+2. In "\aqua-data\App.config" enter with the ConnectionString of your database.
+3. In the project folder, run the command "dotnet run". The executable will be generated in "\aqua-data\bin\Debug\net6.0-windows\AQUA_DATA.exe".
+4. Run the .exe.
